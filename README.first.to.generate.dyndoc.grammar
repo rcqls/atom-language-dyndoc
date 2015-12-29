@@ -1,0 +1,6 @@
+To generate grammar from texmate bundle in repo dyndoc-syntax:
+
+cd ~/Github/dyndoc-syntax/atom/
+tm2atom.sh
+
+However, any other files such as snippets are modified in this repo!!!
