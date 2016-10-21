@@ -12,13 +12,13 @@
     'prefix': '#ii1'
     'body': '{#${1:instr}]$0[#${1:instr}}'
   'InstrBeg':
-    'prefix': '#ib'
+    'prefix': ['#ib','{']
     'body': '{#${1:instr}]$0'
   'InstrEnd':
-    'prefix': '#ie'
+    'prefix': ['#ie','}']
     'body': '[#${1:end}}$0'
   'Tag':
-    'prefix': '#a'
+    'prefix': ['#a','[']
     'body': '[#${1:instr}]$0'
   'Var':
   	'prefix': '#='
