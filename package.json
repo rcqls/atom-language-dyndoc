@@ -1,6 +1,6 @@
 {
   "name": "language-dyndoc",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Dyndoc language support in Atom",
   "repository": "https://github.com/rcqls/atom-language-dyndoc",
   "license": "MIT",
