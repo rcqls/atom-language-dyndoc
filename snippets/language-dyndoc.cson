@@ -14,11 +14,20 @@
   'InstrBeg':
     'prefix': '#ib'
     'body': '{#${1:instr}]$0'
+  'InstrBegAlias':
+    'prefix': '{'
+    'body': '{#${1:instr}]$0'
   'InstrEnd':
     'prefix': '#ie'
     'body': '[#${1:end}}$0'
+  'InstrEndAlias':
+    'prefix': '}'
+    'body': '[#${1:end}}$0'
   'Tag':
     'prefix': '#a'
+    'body': '[#${1:instr}]$0'
+  'TagAlias':
+    'prefix': '['
     'body': '[#${1:instr}]$0'
   'Var':
   	'prefix': '#='
