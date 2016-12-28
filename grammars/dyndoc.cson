@@ -247,7 +247,7 @@ repository:
       }
     ]
   tag_blck_tex_dyn:
-    begin: "(\\[\\#)(tex>|tex=|tex\\+)(\\])"
+    begin: "(\\[\\#)(tex>|ttm>|tex=|tex\\+)(\\])"
     beginCaptures:
       "1":
         name: "punctuation.definition.tag.dyndoc"
